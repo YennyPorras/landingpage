@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1'>
+    <meta name='mobile-web-app-capable' content='yes'>
+
+    <!--Cabecera de página-->
+    <link rel='stylesheet' href='css/style_contacto.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <title>CONTACTO</title>
+</head>
+
+<body>
+    <header class="banner">
+        <div class="container-fluid">
+            <img src="img/banners/contacto.png" class="img-fluid" alt="Responsive image" width="100%">
+        </div>
+    </header>
+    <!--titulo-->
+    <div class="text-center title-principal">
+        <h1 style="color: #0f1b49"> <span>¿Quieres hacer parte de nuestro equipo?</span></h1>
+    </div>
+
+    <!--subtitulo-->
+    <div class="text-center subtitulo">
+        <h3 style="color: #7c7c7c"> <span>Si eres proactivo, amable, con talentos comerciales y don de gente,<br>
+                envíanos tus datos y nos pondremos en contacto contigo.</span></h3>
+    </div>
+
+    <!--formulario-->
+        <div>
+            <div class="form-row">
+                <div class="form-group col-md-3 offset-3">
+                    <form id="register_form">
+                    <label for="inputNombre">Nombres:</label>
+                    <input type="text" class="form-control" id="inputNombre" placeholder="Nombres" required>
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="inputApellido">Apellidos:</label>
+                    <input type="text" class="form-control" id="inputPassword4" placeholder="Password" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-3 offset-3">
+                    <label for="inputNumber">Celular:</label>
+                    <input type="tel" class="form-control" id="inputNumber" placeholder="Celular" required>
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="inputEmail">Correo Electrónico:</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                </div>
+                <div class="form-group col-md-6 offset-3">
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                        <label class="custom-file-label" for="validatedCustomFile">Seleccionar CV</label>
+                    </div>
+                </div>
+            </div>
+            <!--boton enviar-->
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary" style="background-color: #0f1b49">Enviar</button>
+            </div>
+        </div>
+    </form>
+    <script src="js/form.js"></script>
+</body>
+
+</html>

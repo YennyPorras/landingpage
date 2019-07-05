@@ -1,0 +1,83 @@
+/*Cabecera de pagina*/
+.welcome-title {
+  font-size: 20px;
+  color: #a0a0a0;
+  margin: 20px;
+  margin-right: 50px;
+}
+
+/*Menú de redes*/
+.nav a {
+  background: white;
+  color: #a0a0a0;
+  border: none;
+  margin: 20px;
+}
+.nav a:hover {
+  background: #e1e1e1;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  background-color: #e1e1e1;
+}
+
+/*Imagen empresarial*/
+.logo-empresa {
+  width: 30%;
+  height: 30%;
+  margin-left: 3%;
+}
+
+/*menú de navegación*/
+.nav a {
+  background: white;
+  color: black !important;
+  border:none;
+}
+.navbar-default {
+ border:none;
+}
+
+.nav a:hover {
+  background: lightgrey;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  background-color: lightgrey;
+}
+
+/*Imagen empresarial*/
+.logo-empresa {
+  width: 20%;
+  height: 20%;
+  margin-left: 3%;
+}
+
+/*botones*/
+.boton-formulario{
+  margin:20px;
+}
+.btn {
+  color: #fff;
+  background-color:#12274c !important;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #0062cc !important;
+}
+
+/*seccion-redes*/
+.redes-title{
+  color:#4d4d4d;
+}
+/*footer*/
+.navegacion-final{
+  background-color: #949494;
+}
+.boton-final{
+  background-color: #949494 !important;
+}

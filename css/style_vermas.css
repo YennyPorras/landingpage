@@ -1,0 +1,59 @@
+/*titulo*/
+.title-principal {
+    margin: 40px;
+}
+
+/*subtitulo*/
+.subtitulo {
+    margin: 40px;
+}
+
+/*contenido*/
+.seccion {
+    margin: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.texto-seccion {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.seccion {
+    font-size: 20px;
+    margin: 10px;
+}
+
+/*seccion-redes*/
+.redes-title {
+    color: #4d4d4d;
+}
+
+/*footer*/
+.navegacion-final {
+    background-color: #949494;
+}
+
+.boton-final {
+    background-color: #949494 !important;
+}
+
+.nav a {
+    background: white;
+    color: whitesmoke;
+    border: none;
+    margin: 20px;
+}
+
+.nav a:hover {
+    background: #e1e1e1;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: #e1e1e1;
+}
